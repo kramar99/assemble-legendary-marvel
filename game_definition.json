@@ -3,7 +3,7 @@
   "name": "Legendary: A Marvel Deck Building Game",
   "publisher": "Upper Deck",
   "version": "1.0.0",
-  "iconData": "game-icons/legendary.webp",
+  "iconData": "game-icons/legendary.jpg",
   "elementTypes": {
     "heroes": {
       "id": "heroes",
