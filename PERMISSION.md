@@ -26,7 +26,7 @@ This permission may be revoked by removing this file from the repository. Upon r
 
 TERMS OF SERVICE
 
-By including this file, I acknowledge that my use of the Assemble Randomize platform is subject to the Assemble Randomizer Terms of Service, including its provisions on content ownership, indemnification, and user-generated content.
+By including this file, I acknowledge that my use of the Assemble Randomizer platform is subject to the Assemble Randomizer Terms of Service, including its provisions on content ownership, indemnification, and user-generated content.
 
 Date: [Date]
 Contact: [Contact Email]
