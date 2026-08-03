@@ -1,6 +1,6 @@
 CONTENT DISPLAY PERMISSION
 
-I, [Creator Name], whose GitHub user name is [GitHub Username], hereby grant Assemble Randomizer ("the App") a non-exclusive, worldwide, royalty-free, and sublicensable license to reproduce, publicly display, publicly perform, and distribute the content contained in this repository through the App's interface.
+The owner of this repository ("the Creator") hereby grants Assemble Randomizer ("the App") a non-exclusive, worldwide, royalty-free, and sublicensable license to reproduce, publicly display, publicly perform, and distribute the content contained in this repository through the App's interface.
 
 SCOPE OF PERMISSION
 
@@ -18,7 +18,7 @@ This permission extends to content accessed through GitHub's public API and any 
 
 RESERVATION OF RIGHTS
 
-This permission does not grant the App any ownership over the creator's underlying intellectual property or create a derivative work. All rights not expressly granted herein are reserved by the Creator.
+This permission does not grant the App any ownership over the Creator's underlying intellectual property or create a derivative work. All rights not expressly granted herein are reserved by the Creator.
 
 REVOCATION
 
@@ -26,7 +26,4 @@ This permission may be revoked by removing this file from the repository. Upon r
 
 TERMS OF SERVICE
 
-By including this file, I acknowledge that my use of the Assemble Randomizer platform is subject to the Assemble Randomizer Terms of Service, including its provisions on content ownership, indemnification, and user-generated content.
-
-Date: [Date]
-Contact: [Contact Email]
+By including this file, the Creator acknowledges that their use of the Assemble Randomizer platform is subject to the Assemble Randomizer Terms of Service, including its provisions on content ownership, indemnification, and user-generated content.
