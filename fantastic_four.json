@@ -1,0 +1,152 @@
+{
+    "version": "1.0.0",
+    "game info": {
+        "name": "Fantastic Four Expansion",
+        "publisher": "Upper Deck"
+    },
+    "expansion": {
+        "id": "fantastic_four",
+        "name": "Fantastic Four",
+        "releaseYear": 2013,
+        "heroes": [
+            {
+                "name": "Human Torch",
+                "team": "Fantastic Four",
+                "types": [
+                    "Instinct",
+                    "Tech"
+                ],
+                "displayName": "Human Torch"
+            },
+            {
+                "name": "Invisible Woman",
+                "team": "Fantastic Four",
+                "types": [
+                    "Covert",
+                    "Tech"
+                ],
+                "displayName": "Invisible Woman"
+            },
+            {
+                "name": "Mr. Fantastic",
+                "team": "Fantastic Four",
+                "types": [
+                    "Ranged",
+                    "Instinct"
+                ],
+                "displayName": "Mr. Fantastic"
+            },
+            {
+                "name": "Silver Surfer",
+                "team": "Unaffiliated",
+                "types": [
+                    "Covert",
+                    "Strength",
+                    "tech"
+                ],
+                "displayName": "Silver Surfer"
+            },
+            {
+                "name": "Thing",
+                "team": "Fantastic Four",
+                "types": [
+                    "Instinct",
+                    "Strength"
+                ],
+                "displayName": "Thing"
+            }
+        ],
+        "masterminds": [
+            {
+                "name": "Galactus",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Heralds Of Galactus"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Heralds Of Galactus"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Galactus"
+            },
+            {
+                "name": "Mole Man",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Subterranea"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Subterranea"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Mole Man"
+            }
+        ],
+        "villains": [
+            {
+                "name": "Heralds of Galactus",
+                "displayName": "Heralds of Galactus"
+            },
+            {
+                "name": "Subterranea",
+                "displayName": "Subterranea"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "Bathe Earth In Cosmic Rays",
+                "schemeTwists": 6,
+                "displayName": "Bathe Earth In Cosmic Rays"
+            },
+            {
+                "name": "Flood The Planet With Melted Glaciers",
+                "schemeTwists": 8,
+                "displayName": "Flood The Planet With Melted Glaciers"
+            },
+            {
+                "name": "Invincible Force Field",
+                "schemeTwists": 7,
+                "displayName": "Invincible Force Field"
+            },
+            {
+                "name": "Pull Reality Into The Negative Zone",
+                "schemeTwists": 8,
+                "displayName": "Pull Reality Into The Negative Zone"
+            }
+        ]
+    }
+}
