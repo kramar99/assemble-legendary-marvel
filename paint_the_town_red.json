@@ -1,0 +1,63 @@
+{
+    "version": "1.0.0",
+    "gameInfo": {
+        "name": "Paint the Town Red Expansion",
+        "publisher": "Upper Deck"
+    },
+    "expansion": {
+        "id": "paint_the_town_red",
+        "name": "Paint The Town Red",
+        "releaseYear": 2014,
+        "heroes": [
+            {
+                "name": "Black Cat",
+                "team": "Spider-Friends",
+                "types": [
+                    "Covert",
+                    "Instinct"
+                ],
+                "displayName": "Black Cat"
+            },
+            {
+                "name": "Moon Knight",
+                "team": "Marvel Knights",
+                "types": [
+                    "Ranged",
+                    "Instinct"
+                ],
+                "displayName": "Moon Knight"
+            },
+            {
+                "name": "Scarlet Spider",
+                "team": "Spider-Friends",
+                "types": [
+                    "Strength",
+                    "Instinct",
+                    "Covert"
+                ],
+                "displayName": "Scarlet Spider"
+            },
+            {
+                "name": "Spider-Woman",
+                "team": "Spider-Friends",
+                "types": [
+                    "Strength",
+                    "Tech",
+                    "Covert"
+                ],
+                "displayName": "Spider-Woman"
+            },
+            {
+                "name": "Symbiote Spider-Man",
+                "team": "Spider-Friends",
+                "types": [
+                    "Strength",
+                    "Instinct",
+                    "Covert",
+                    "Ranged"
+                ],
+                "displayName": "Symbiote Spider-Man"
+            }
+        ]
+    }
+}
