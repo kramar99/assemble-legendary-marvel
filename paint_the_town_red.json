@@ -58,6 +58,111 @@
                 ],
                 "displayName": "Symbiote Spider-Man"
             }
+        ],
+        "masterminds": [
+            {
+                "name": "Carnage",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Maximum Carnage"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Maximum Carnage"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Carnage"
+            },
+            {
+                "name": "Mysterio",
+                "postRandomization": {
+                    "conditionalRules": [
+                        {
+                            "parameter": "numberOfPlayers",
+                            "conditions": {
+                                "2-5": {
+                                    "villains": {
+                                        "forceInclude": [
+                                            "Sinister Six"
+                                        ],
+                                        "priority": 10
+                                    }
+                                },
+                                "1": {
+                                    "villains": {
+                                        "forceExclude": [
+                                            "Sinister Six"
+                                        ],
+                                        "priority": 10
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                "displayName": "Mysterio"
+            }
+        ],
+        "villains": [
+            {
+                "name": "Maximum Carnage",
+                "displayName": "Maximum Carnage"
+            },
+            {
+                "name": "Sinister Six",
+                "displayName": "Sinister Six"
+            }
+        ],
+        "schemes": [
+            {
+                "name": "The Clone Saga",
+                "schemeTwists": 8,
+                "displayName": "The Clone Saga"
+            },
+            {
+                "name": "Invade the Daily Bugle News HQ",
+                "schemeTwists": 8,
+                "setup": {
+                    "notes": [
+                        "Add 6 extra Henchman from a single Henchman Group to the Hero Deck"
+                    ]
+                },
+                "displayName": "Invade the Daily Bugle N"
+            },
+            {
+                "name": "Splice Humans With Spider DNA",
+                "schemeTwists": 8,
+                "postRandomization": {
+                    "villains": {
+                    "forceInclude": [
+                        "Sinister Six"
+                    ],
+                    "priority": 10
+                    }
+                },
+                "displayName": "Splice Humans With Spider DNA"
+            },
+            {
+                "name": "Weave A Web Of Lies",
+                "schemeTwists": 7,
+                "displayName": "Weave A Web Of Lies"
+            }
         ]
     }
 }
